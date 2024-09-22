@@ -1,0 +1,44 @@
+/* Main container styles */
+.app {
+  display: grid;
+  grid-template-rows: 150px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header styling */
+h1 {
+  font-size: 36px;
+  text-align: center;
+  align-self: center;
+  margin: 0;
+}
+
+/* Main content styling */
+.app_main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 8%;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Task column styling */
+.task_column {
+  flex: 1;
+  min-width: 280px;
+  max-width: 33.33%;
+  margin: 20px 0;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .app_main {
+    padding: 20px 4%;
+    flex-direction: column;
+  }
+
+  .task_column {
+    max-width: 100%;
+    margin: 10px 0;
+  }
+}
