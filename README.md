@@ -4,6 +4,8 @@ OrganiseMe is your personal assistant for managing everyday life tasks. Designed
 
 Easily create, prioritise and track tasks in each category, from scheduling workouts and meal planning to managing budgets and paying bills. With reminders and progress tracking, OrganiseMe ensures you stay on top of your goals while maintaining connections with friends and family. Simplify your life, stay organised and achieve your aspirations with OrganiseMe.
 
+![app image](public/img.png)
+
 # Installation & Usage
 
 ## Instalation
